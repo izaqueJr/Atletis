@@ -204,3 +204,15 @@ form {
   }
  
 }
+
+@media screen and (max-width: 360px) {
+
+  .navbar-brand img{
+    width: 90px;
+  }
+  
+  .nav a{
+    padding: 5px;
+    font-size: 13px;
+  }
+}
