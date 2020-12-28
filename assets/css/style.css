@@ -59,20 +59,21 @@ form {
 .send{
   display: flex;
   align-items: center;
-  width: 350px;
-  height: 380px;
+  justify-content: center;
+  width: 400px;
+  height: 450px;
 }
 
 .send input{
   width: 260px;
   height:40px ;
   border: 0.2px solid black;
-  border-radius: 12px;
+  border-radius: 8px;
   text-align: center;
   margin: 10px;
 }
 
-.send button{
+.btn{
   margin-top: 20px;
   width: 100px;
   height: 40px;
@@ -80,7 +81,7 @@ form {
 
 .sendSection{
   margin-top: 40px;
-  height: 450px;
+  height: 500px;
   padding:20px;
   display: flex;
   flex-direction: row;
@@ -142,10 +143,12 @@ form {
   #about img{
     width: 100%;
   }
+
   #about{
     height: 736px;
     padding: 0;
   }
+
   #aboutText{
     display: flex;
     height: 350px;
@@ -204,7 +207,6 @@ form {
   }
  
 }
-
 @media screen and (max-width: 360px) {
 
   .navbar-brand img{
@@ -214,5 +216,13 @@ form {
   .nav a{
     padding: 5px;
     font-size: 13px;
+  }
+
+  .send{
+    width: 300px;
+  }
+
+  .send input{
+    width: 240px;
   }
 }
